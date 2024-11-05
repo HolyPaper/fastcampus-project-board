@@ -221,3 +221,6 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/java,gradle,intellij+all,windows,macos,visualstudiocode
+fastcampus-project-board/.idea/material_theme_project_new.xml
+
+fastcampus-project-board/.idea/vcs.xml
