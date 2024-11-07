@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a751bc34-6a37-4a52-aa1d-b782ad1961d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../document/use-case.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../document/use-case.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/fastcampus/projectboard/repository/ArticleCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/fastcampus/projectboard/repository/ArticleCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/fastcampus/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/fastcampus/projectboard/repository/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mpwlt4wyf3lN1TL6q8XBSNbx87" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/#6-boot",
+    "git-widget-placeholder": "feature/#2-api",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727786980435</updated>
       <workItem from="1727786982173" duration="1064000" />
+      <workItem from="1730906778790" duration="18000" />
     </task>
     <servers />
   </component>
