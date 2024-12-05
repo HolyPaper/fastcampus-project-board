@@ -1,6 +1,9 @@
 debug: false
 management.endpoints.web.exposure.include: "*"
 
+server:
+  port: 9080
+
 logging:
   level:
     com.fastcampus.projectboard: debug
