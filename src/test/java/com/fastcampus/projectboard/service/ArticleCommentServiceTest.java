@@ -2,6 +2,7 @@ package com.fastcampus.projectboard.service;
 
 import com.fastcampus.projectboard.domain.Article;
 import com.fastcampus.projectboard.domain.ArticleComment;
+import com.fastcampus.projectboard.domain.UserAccount;
 import com.fastcampus.projectboard.dto.ArticleCommentDto;
 import com.fastcampus.projectboard.repository.ArticleCommentRepository;
 import com.fastcampus.projectboard.repository.ArticleRepository;
@@ -29,6 +30,7 @@ class ArticleCommentServiceTest {
 
     @Mock private ArticleCommentRepository articleCommentRepository;
     @Mock private ArticleRepository articleRepository;
+    @Mock private UserAccount userAccount;
 
     @DisplayName("게시글 ID로 조회하면, 해당하는 댓글 리스트를 반환한다. ")
     @Test
@@ -37,7 +39,7 @@ class ArticleCommentServiceTest {
         Long articleId = 1L;
 
         given(articleRepository.findById(articleId)).willReturn(Optional.of(
-                Article.of("title", "content", "#java"))
+                Article.of(userAccount,"title", "content", "#java"))
         );
 
         // When
